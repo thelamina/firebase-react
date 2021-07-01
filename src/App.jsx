@@ -45,7 +45,7 @@ const App = () => {
 					duration: 5000,
 				}}
 			/>
-			<Footer />
+			// <Footer />
 		</>
 	);
 };
