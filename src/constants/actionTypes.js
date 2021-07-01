@@ -1,0 +1,20 @@
+//Auth const
+export const AUTH_START = 'AUTH_START';
+export const AUTH_FAIL = 'AUTH_FAIL';
+export const SIGNUP_USER = 'SIGNUP_USER';
+export const SIGNUP_USER_SUCCESS = 'SIGNUP_USER_SUCCESS';
+export const SIGNUP_USER_FAIL = 'SIGNUP_USER_FAIL';
+export const SIGNIN_USER = 'SIGNIN_USER';
+export const SIGNIN_USER_SUCCESS = 'SIGNIN_USER_SUCCESS';
+export const SIGNIN_USER_FAIL = 'SIGNIN_USER_FAIL';
+export const SIGNOUT_USER = 'SIGNOUT_USER';
+export const SIGNOUT_USER_SUCCESS = 'SIGNOUT_USER_SUCCESS';
+export const SIGNOUT_USER_FAIL = 'SIGNOUT_USER_SUCCESS';
+export const CURRENT_USER = 'CURRENT_USER';
+export const CURRENT_USER_SUCCESS = 'CURRENT_USER_SUCCESS';
+
+// Data const
+export const DATA_START = 'DATA_START';
+export const DATA_FAIL = 'DATA_FAIL';
+export const SEND_DATA = 'SEND_DATA';
+export const SEND_DATA_SUCCESS = 'SEND_DATA_SUCCESS';
