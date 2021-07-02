@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 import { useHistory } from 'react-router-dom';
 import AppRouter from './routes';
-import { Navbar, Loader } from './components';
+import { Navbar,Footer, Loader } from './components';
 import { auth } from './config/firebaseConfig';
 import { useAuth } from './hooks';
 
@@ -45,7 +45,6 @@ const App = () => {
 					duration: 5000,
 				}}
 			/>
-// 			<Footer />
 		</>
 	);
 };
